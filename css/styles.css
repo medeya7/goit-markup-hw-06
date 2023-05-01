@@ -591,8 +591,6 @@ margin-bottom: 8px;
 .footer-container {
     display: flex;
     align-items: center;
-    gap: 120px;
-    
 }
 
 .subscribe {
@@ -742,6 +740,10 @@ margin-bottom: 8px;
 .modal-title {
     display: block;
     margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
 
     font-size: 16px;
     text-align: center;
@@ -775,6 +777,7 @@ margin-bottom: 8px;
     outline-offset: -2px;
 
     transition: var(--animation-base);
+    background-color: transparent;
 }
 
 .modal-form-input:focus {
@@ -788,7 +791,7 @@ margin-bottom: 8px;
 
     transition: var(--animation-base);
     pointer-events: none;
-    color: var(--accent-color);
+   fill: var(--accent-color);
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -811,6 +814,7 @@ margin-bottom: 8px;
     outline-offset: -2px;
 
     transition: var(--animation-base);
+    background-color: transparent;
 
     resize: none;
 }
@@ -857,6 +861,8 @@ margin-bottom: 8px;
 
 .modal-form-agreement-text {
     font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
 }
 
 .modal-form-agreement-link {
